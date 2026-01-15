@@ -1,0 +1,323 @@
+th, h1, h2, h3, h4, h5, h6, th, a, span, button, label, .swal-modal, .font-Dinar{
+/*body {*/
+    font-family: 'ArabicDinar' !important;
+}
+
+.font-default, span.danger, .font-default td, .pagination .page-item .page-link{
+    font-family: 'Quicksand' !important;
+}
+
+
+
+.custom-logo {
+    height: 58px;
+    width: 133px;
+    padding-bottom: 8px;
+    padding-right: 15px !important;
+}
+
+@media (min-width: 992px){
+    body.vertical-layout.vertical-menu-modern .toggle-icon {
+        /*margin-left: 1rem;*/
+        margin:0;
+        padding-right: 0.5rem;
+        position: absolute;
+        z-index: 1;
+    }
+    .navbar-dark .navbar-nav li {
+        line-height: 1;
+        margin-right: 30px;
+    }
+}
+
+span.error-message strong {
+    font-weight: 100;
+}
+
+button.close{
+    left: 0;
+    right: auto;
+}
+
+
+.icon-notify-img {
+    left: auto;
+    right: -5px;
+}
+
+/* Base RTL container */
+.annual-closing-container {
+    max-width: 800px;
+    margin: 30px auto;
+    direction: rtl;
+    text-align: right;
+    font-family: 'Tahoma', 'Arial', sans-serif;
+}
+
+/* Card styling */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Steps container */
+.closing-steps {
+    margin: 25px 0;
+    padding: 0 15px;
+}
+
+/* Individual step styling */
+.step {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border-right: 4px solid #007bff;
+    border-left: none;
+    transition: all 0.3s ease;
+}
+
+.step:hover {
+    background-color: #f1f7ff;
+    transform: translateX(-5px);
+}
+
+/* Step number circle */
+.step-number {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-right: 0;
+    flex-shrink: 0;
+    font-size: 1.1em;
+}
+
+/* Step content */
+.step-content {
+    flex-grow: 1;
+}
+
+.step-content h5 {
+    color: #2c3e50;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.step-content p {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    margin-right: 16px;
+    margin-left: 0;
+    line-height: 1.5;
+}
+
+/* Warning alert */
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+/* Execute button */
+#executeClosing {
+    padding: 12px 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#executeClosing:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Modal styling */
+.modal-header {
+    border-bottom: 2px solid #e0e0e0;
+    padding: 15px 20px;
+}
+
+.modal-footer {
+    border-top: 2px solid #e0e0e0;
+    justify-content: flex-start;
+}
+
+.modal-footer button {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .annual-closing-container {
+        margin: 15px;
+    }
+
+    .step {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .step-number {
+        margin-left: 0;
+        margin-bottom: 10px;
+        align-self: flex-end;
+    }
+
+    .step-content p {
+        margin-right: 0;
+    }
+
+
+    .annual-closing-container {
+        max-width: 800px;
+        margin: 30px auto;
+        direction: rtl;
+        text-align: right;
+        font-family: 'Tahoma', 'Arial', sans-serif;
+    }
+
+    /* Card styling */
+    .card {
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+    /* Steps container */
+    .closing-steps {
+        margin: 25px 0;
+        padding: 0 15px;
+    }
+
+    /* Individual step styling */
+    .step {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 18px;
+        border-radius: 8px;
+        background-color: #f8f9fa;
+        border-right: 4px solid #007bff;
+        border-left: none;
+        transition: all 0.3s ease;
+    }
+
+    .step:hover {
+        background-color: #f1f7ff;
+        transform: translateX(-5px);
+    }
+
+    /* Step number circle */
+    .step-number {
+        width: 40px;
+        height: 40px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-left: 15px;
+        margin-right: 0;
+        flex-shrink: 0;
+        font-size: 1.1em;
+    }
+
+    /* Step content */
+    .step-content {
+        flex-grow: 1;
+    }
+
+    .step-content h5 {
+        color: #2c3e50;
+        margin-bottom: 8px;
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+
+    .step-content p {
+        color: #6c757d;
+        font-size: 0.9em;
+        margin-bottom: 0;
+        margin-right: 16px;
+        margin-left: 0;
+        line-height: 1.5;
+    }
+
+    /* Warning alert */
+    .alert-warning {
+        background-color: #fff3cd;
+        border-color: #ffeeba;
+        color: #856404;
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 25px;
+    }
+
+    /* Execute button */
+    #executeClosing {
+        padding: 12px 40px;
+        font-size: 1.1em;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #executeClosing:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+
+
+    .modal-footer {
+        border-top: 2px solid #e0e0e0;
+        justify-content: flex-start;
+    }
+
+    .modal-footer button {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .annual-closing-container {
+            margin: 15px;
+        }
+
+        .step {
+            flex-direction: column;
+            padding: 15px;
+        }
+
+        .step-number {
+            margin-left: 0;
+            margin-bottom: 10px;
+            align-self: flex-end;
+        }
+
+        .step-content p {
+            margin-right: 0;
+        }
+    }
+}

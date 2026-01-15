@@ -1,0 +1,71 @@
+
+.custom-logo {
+    height: 58px;
+    width: 133px;
+    padding-bottom: 8px;
+    padding-left: 15px !important;
+}
+
+@media (min-width: 992px){
+    body.vertical-layout.vertical-menu-modern .toggle-icon {
+        /*margin-left: 1rem;*/
+        margin:0;
+        padding-left: 0.5rem;
+        position: absolute;
+        z-index: 1;
+    }
+    .navbar-dark .navbar-nav li {
+        line-height: 1;
+        margin-left: 30px;
+    }
+
+    .annual-closing-container {
+        max-width: 800px;
+        margin: 30px auto;
+    }
+
+    .closing-steps {
+        margin: 20px 0;
+    }
+
+    .step {
+        display: flex;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 5px;
+        background-color: #f8f9fa;
+        border-left: 4px solid #007bff;
+    }
+
+    .step-number {
+        width: 40px;
+        height: 40px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-right: 15px;
+        flex-shrink: 0;
+    }
+
+    .step-content h5 {
+        color: #343a40;
+        margin-bottom: 5px;
+    }
+
+    .step-content p {
+        color: #6c757d;
+        font-size: 0.9em;
+        margin-bottom: 0;
+        margin-left: 16px;
+    }
+
+    #executeClosing {
+        padding: 10px 30px;
+    }
+}
+
+

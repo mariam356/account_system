@@ -1,0 +1,177 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines contain the default error messages used by
+    | the validator class. Some of these rules have multiple versions such
+    | as the size rules. Feel free to tweak each of these messages here.
+    |
+    */
+
+    'accepted' => 'The :attribute must be accepted.',
+    'active_url' => 'The :attribute is not a valid URL.',
+    'after' => 'يجب ان يكون التاريخ بعد :date',
+    'after_or_equal' => 'يجب ان يكون التاريخ بعد أو يساوي :date',
+    'alpha' => 'The :attribute may only contain letters.',
+    'alpha_dash' => 'The :attribute may only contain letters, numbers, dashes and underscores.',
+    'alpha_num' => 'The :attribute may only contain letters and numbers.',
+    'array' => 'The :attribute must be an array.',
+    'before' => 'The :attribute must be a date before :date.',
+    'before_or_equal' => 'The :attribute must be a date before or equal to :date.',
+    'between' => [
+        'numeric' => 'يجب ان تكون البيانات ما بين :min و :max.',
+        'file' => 'The :attribute must be between :min and :max kilobytes.',
+        'string' => 'The :attribute must be between :min and :max characters.',
+        'array' => 'The :attribute must have between :min and :max items.',
+    ],
+    'boolean' => 'يجب أن تكون البيانات 1 أو 0.',
+    'confirmed' => 'البيانات غير متطابقة.',
+    'date' => 'يجب أن تكون البيانات تاريخ.',
+    'date_equals' => 'The :attribute must be a date equal to :date.',
+    'date_format' => 'The :attribute does not match the format :format.',
+    'different' => 'The :attribute and :other must be different.',
+//    'digits' => 'The :attribute must be :digits digits.',
+    'digits' => 'يجب ان يكون الطول :digits ارقام.',
+
+    'digits_between' => 'The :attribute must be between :min and :max digits.',
+    'dimensions' => 'The :attribute has invalid image dimensions.',
+    'distinct' => 'The :attribute field has a duplicate value.',
+    'email' => 'يجب أن يكون عنوان بريد إلكتروني صالحًا.',
+    'ends_with' => 'The :attribute must end with one of the following: :values',
+    'exists' => 'The selected :attribute is invalid.',
+    'file' => 'يجب أن تكون البيانات صورة',
+    'filled' => 'يجب أن تحتوي البيانات على قيمة.',
+    'gt' => [
+        'numeric' => 'The :attribute must be greater than :value.',
+        'file' => 'The :attribute must be greater than :value kilobytes.',
+        'string' => 'The :attribute must be greater than :value characters.',
+        'array' => 'The :attribute must have more than :value items.',
+    ],
+    'gte' => [
+        'numeric' => 'The :attribute must be greater than or equal :value.',
+        'file' => 'The :attribute must be greater than or equal :value kilobytes.',
+        'string' => 'The :attribute must be greater than or equal :value characters.',
+        'array' => 'The :attribute must have :value items or more.',
+    ],
+    'image' => 'يجب أن تكون البيانات صورة.',
+    'in' => 'The selected :attribute is invalid.',
+    'in_array' => 'The :attribute field does not exist in :other.',
+    'integer' => 'يجب أن تكون البيانات أرقام.',
+    'ip' => 'The :attribute must be a valid IP address.',
+    'ipv4' => 'The :attribute must be a valid IPv4 address.',
+    'ipv6' => 'The :attribute must be a valid IPv6 address.',
+    'json' => 'يجب أن تكون السمة: سلسلة JSON صالحة.',
+    'lt' => [
+        'numeric' => 'The :attribute must be less than :value.',
+        'file' => 'The :attribute must be less than :value kilobytes.',
+        'string' => 'The :attribute must be less than :value characters.',
+        'array' => 'The :attribute must have less than :value items.',
+    ],
+    'lte' => [
+        'numeric' => 'The :attribute must be less than or equal :value.',
+        'file' => 'The :attribute must be less than or equal :value kilobytes.',
+        'string' => 'The :attribute must be less than or equal :value characters.',
+        'array' => 'The :attribute must not have more than :value items.',
+    ],
+    'max' => [
+        // 'numeric' => 'The :attribute may not be greater than :max.',
+        'numeric' => 'الرجاء ادخال  عدد اصغر من :max',
+        //'file' => 'The :attribute may not be greater than :max kilobytes.',
+        'file' => 'الرجاء أدخال صورة حجمها أقل من :max kilobytes.',
+        'string' => 'الرجاء إدخال أقل من :max حرف.',
+        'array' => 'الرجاء ادخال :attribute عناصر أقل من :max.',
+    ],
+    'mimes' => 'The :attribute must be a file of type: :values.',
+    'mimetypes' => 'The :attribute must be a file of type: :values.',
+    'min' => [
+        'numeric' => 'الرجاء ادخال عدد  اكبر من :min.',
+//        'numeric' => 'الرجاء ادخال :attribute عدد اصغر من :min.',
+        'file' => 'الرجاء أدخال صورة حجمها أكبر من :min kilobytes.',
+        'string' => 'الرجاء ادخال اكثر من :min.',
+        'array' => 'الرجاء ادخال  عناصر اكثر من :max.',
+    ],
+    'not_in' => 'The selected :attribute is invalid.',
+    'not_regex' => 'The :attribute format is invalid.',
+    'numeric' => 'الرجاء تعبئة هذا الحقل أرقام.',
+    'present' => 'The :attribute field must be present.',
+    'regex' => 'The :attribute format is invalid.',
+    'required' => 'الرجاء تعبئة هذا الحقل.',
+    'required_if' => 'The :attribute field is required when :other is :value.',
+    'required_unless' => 'The :attribute field is required unless :other is in :values.',
+    'required_with' => 'The :attribute field is required when :values is present.',
+    'required_with_all' => 'The :attribute field is required when :values are present.',
+    'required_without' => 'The :attribute field is required when :values is not present.',
+    'required_without_all' => 'The :attribute field is required when none of :values are present.',
+    'same' => 'The :attribute and :other must match.',
+    'size' => [
+        'numeric' => 'The :attribute must be :size.',
+        'file' => 'The :attribute must be :size kilobytes.',
+        'string' => 'يجب ان يكون الحجم :size حروف.',
+//        'string' => 'The :attribute must be :size characters.',
+        'array' => 'The :attribute must contain :size items.',
+    ],
+    'starts_with' => 'The :attribute must start with one of the following: :values',
+    'string' => 'The :attribute must be a string.',
+    'timezone' => 'The :attribute must be a valid zone.',
+    'unique' => 'لقد تم إدخال هذا الإسم من قبل.',
+    'uploaded' => 'The :attribute failed to upload.',
+    'url' => 'يجب أن يكون صيغة رابط',
+//    'url' => 'The :attribute format is invalid.',
+    'uuid' => 'The :attribute must be a valid UUID.',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify custom validation messages for attributes using the
+    | convention "attribute.rule" to name the lines. This makes it quick to
+    | specify a specific custom language line for a given attribute rule.
+    |
+    */
+
+    'custom' => [
+        'attribute-name' => [
+            'rule-name' => 'custom-message',
+        ],
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Custom Validation Attributes
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used to swap our attribute placeholder
+    | with something more reader friendly such as "E-Mail Address" instead
+    | of "email". This simply helps us make our message more expressive.
+    |
+    */
+
+    'attributes' => [],
+
+    /**
+     * custom messages
+     */
+
+    'match_old_password' => 'كلمة المرور لا تتطابق مع كلمة المرور الحالية',
+    'the_price_is_greater_than_the_minimum' => 'يجب ان يكون السعر اكبر من الحد الادنى.',
+    'date_most_be_at_least_today' => 'يجب أن لايقل عن تاريخ اليوم.',
+    'there_is_a_prior_discount_for_this_date'=> 'يوجد تخفيض مسبق بهذا التاريخ.',
+    'you_cannot_activate'=> 'لايمكنك تنشيطة.',
+    'you_must_specify_at_least_one_day' => 'يجب اختيار يوم واحد على الأقل.',
+    'you_must_specify_at_least_one_product' => 'يجب اختيار منتج واحد على الأقل.',
+    'amount_incorrect' => 'المبلغ الذي ادخلتة غير صحيح.',
+    'Sorry_the_current_user_balance_cannot_be_more_than_1000000' => 'عذراً لايمكن ان يكون رصيد المستخدم  الحالي اكثر من 1,000,000 ',
+    'Sorry_the_current_user_balance_cannot_be_more_than' => 'عذراً لايمكن ان يكون رصيد المستخدم  الحالي اكثر من',
+    'this_branch_is_already_in_this_category' => 'هذا الفرع ضمن هذا التصيف بالفعل',
+    'this_sub_category_is_already_in_this_main_category' => 'هذا التصنيف الفرعي ضمن هذا التصيف الرئيسي بالفعل',
+    'a_childless_a_category_should_be_chosen' => 'يجب اختيار تنصيف ليس لديه ابناء.',
+    'sorry_there_is_no_account_for_this_user' => 'عذراً، لايوجد حساب لهذا المستخدم.',
+    'this_row_already_exists' => 'هذا الصف موجود من قبل.',
+
+];
